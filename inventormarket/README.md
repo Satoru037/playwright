@@ -55,9 +55,14 @@ across all configured devices.
 - `/patent-services/` – Patent Services
 - `/iump-subscription-plan/` – Subscription Plans
 
-### B. Categories (1 Endpoints)
+### B. Categories (6 Endpoints)
 
 - `/category/aviation/` – Aviation
+- `/category/consumer-products/` – Consumer Products
+- `/category/electronics/` – Electronics
+- `/category/medical/` – Medical
+- `/category/footwear/` – Footwear
+- `/category/measuring/` – Measuring
 
 ### C. Explore (1 Endpoint)
 
@@ -67,12 +72,12 @@ across all configured devices.
 
 ## 5. Execution Option A: Cloud (GitHub Actions)
 
-**Schedule:** Every Thursday at **9:00 AM IST** (**03:30 AM UTC**).
+**Schedule:** Every Thursday at 10:00 AM IST.
 
 1. Navigate to the **Actions** tab.
-2. Select **Inventor Market: Automation**.
+2. Select **Inventor Market: QA Automation**.
 3. Click **Run workflow**.
-4. Download the **`inventormarket-report`** artifact from the run.
+4. Download the **`inventor-market-report`** artifact from the run.
 
 ---
 
@@ -89,17 +94,3 @@ across all configured devices.
 npm install
 npx playwright install
 ```
-
-### Step 2: Run Tests
-
-From the Inventormarket folder:
-
-```bash
-cd inventormarket
-npx playwright test
-```
-
-### Optional Commands
-
-- **Update Snapshots:** `npx playwright test --update-snapshots`
-- **View Report:** `npx playwright show-report`

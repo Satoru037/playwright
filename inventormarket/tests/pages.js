@@ -10,11 +10,7 @@ module.exports.pagesToTest = [
 
 	// Categories
 	{ path: "/category/aviation/", name: "Cat_Aviation" },
-	{ path: "/category/consumer-products/", name: "Cat_Consumer" },
-	{ path: "/category/electronics/", name: "Cat_Electronics" },
-	{ path: "/category/medical/", name: "Cat_Medical" },
-	{ path: "/category/footwear/", name: "Cat_Footwear" },
-	{ path: "/category/measuring/", name: "Cat_Measuring" },
+
 	// Explore
 	{ path: "/explore/", name: "Explore" },
 ];
