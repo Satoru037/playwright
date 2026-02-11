@@ -78,7 +78,7 @@ across all configured devices.
 
 ## 5. Execution Option A: Cloud (GitHub Actions)
 
-**Schedule:** Manual only (no scheduled automation).
+**Schedule:** Every Tuesday at **9:00 AM IST** (**03:30 AM UTC**).
 
 1. Navigate to the **Actions** tab.
 2. Select **DigiBot: Automation**.
