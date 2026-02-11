@@ -9,6 +9,7 @@ node_modules/
 # Local test artifacts (can be huge)
 microlocs/results.json
 microlocsdirectory/results.json
+thefourthtwenty/results.json
 
 # Environment Variables
 .env
